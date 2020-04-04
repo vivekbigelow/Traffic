@@ -24,7 +24,7 @@ The obstacles are created with a random x value in the range of the road/floor.
 As the game progresses the cubes get faster. To implement this I added an init method to the obstace.gd script that took a Vector3 velocity vector. In the car.gd I pass a velocity vector to the instance of the obstacle when it is created. 
 
 ### UI 
-	The UI is very basic. There is a life and score banner that informs the player of all of the dynamic information. Once the player dies the replay button and game over tag appear. I had an issue where the replay button does not always show up and the players life goes negative. It doesn't happen consistently, but it reappears after I think it's fixed so I don't know why it happens. 
+The UI is very basic. There is a life and score banner that informs the player of all of the dynamic information. Once the player dies the replay button and game over tag appear. I had an issue where the replay button does not always show up and the players life goes negative. It doesn't happen consistently, but it reappears after I think it's fixed so I don't know why it happens. 
 
 ### Exports
 
