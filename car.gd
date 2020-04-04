@@ -57,9 +57,8 @@ func _physics_process(delta):
 	
 	if collisions:
 		var obstacleCollided = collisions.collider
-		if obstacleCollided.is_wall() == false:
-			obstacleCollided.queue_free()
-			life -= 1
+		obstacleCollided.queue_free()
+		life -= 1
 		
 	lifetag.text = "Life: " + str(life) + " Score: " + str(score)
 	if life == 0:
